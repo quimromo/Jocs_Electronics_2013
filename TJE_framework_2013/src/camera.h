@@ -49,6 +49,7 @@ public:
 	void setPerspective(float fov, float aspect, float near_plane, float far_plane);
 	void setOrthographic(float left, float right, float top, float bottom, float near_plane, float far_plane);
 	void lookAt(const Vector3& eye, const Vector3& center, const Vector3& up);
+	void lookAtDelay(const Vector3& eye, const Vector3& center, const Vector3& up, const float eyeDelay, const float upDelay);
 
 	//compute the matrices
 	void updateViewMatrix();

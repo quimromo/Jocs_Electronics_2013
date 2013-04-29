@@ -124,3 +124,9 @@ void Camera::updateProjectionMatrix()
 
 	glMatrixMode(GL_MODELVIEW);
 }
+
+void Camera::lookAtDelay(const Vector3& eye, const Vector3& center, const Vector3& up, const float eyeDelay, const float upDelay){
+
+
+
+}
